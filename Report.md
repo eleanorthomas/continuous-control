@@ -2,7 +2,7 @@
 
 ## Learning Algorithm
 
-The learning algorithm used was a Deep Deterministic Policy Gradient (DDPG) using an Actor-Critic model with  underlying neural networks, each using two fully connected layers, with 256 and 128 units for the first and second layer, respectively, and relu activation functions.
+The learning algorithm used was a Deep Deterministic Policy Gradient (DDPG) using an Actor-Critic model with underlying neural networks, each using two fully connected layers, with 256 and 128 units for the first and second layer, respectively, and relu activation functions.
 
 The hyperparameters used to train the agent were as follows:
 - BUFFER_SIZE = int(1e5)  (replay buffer size)
