@@ -12,6 +12,8 @@ The hyperparameters used to train the agent were as follows:
 - LR_ACTOR = 1e-4         (learning rate of the actor)
 - LR_CRITIC = 1e-3        (learning rate of the critic)
 - WEIGHT_DECAY = 0        (L2 weight decay)
+- OU_SIGMA = 0.05         (Ornstein-Uhlenbeck noise parameter, volatility)
+- OU_THETA = 0.15         (Ornstein-Uhlenbeck noise parameter, speed of mean reversion)
 
 ## Plot of Rewards
 
