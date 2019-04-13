@@ -6,13 +6,13 @@ The learning algorithm used was a Deep Deterministic Policy Gradient (DDPG) usin
 
 The hyperparameters used to train the agent were as follows:
 - BUFFER_SIZE = int(1e5)  (replay buffer size)
-- BATCH_SIZE = 256       (minibatch size)
+- BATCH_SIZE = 1280       (minibatch size)
 - GAMMA = 0.99            (discount factor)
 - TAU = 1e-3              (for soft update of target parameters)
 - LR_ACTOR = 1e-4         (learning rate of the actor)
 - LR_CRITIC = 1e-3        (learning rate of the critic)
 - WEIGHT_DECAY = 0        (L2 weight decay)
-- OU_SIGMA = 0.05         (Ornstein-Uhlenbeck noise parameter, volatility)
+- OU_SIGMA = 0.2          (Ornstein-Uhlenbeck noise parameter, volatility)
 - OU_THETA = 0.15         (Ornstein-Uhlenbeck noise parameter, speed of mean reversion)
 
 ## Plot of Rewards
