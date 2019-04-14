@@ -75,5 +75,5 @@ The solution is contained in Continuous_Control.ipynb. Follow the steps in the J
 - checkpoint_critic.pt - Trained Critic weights
 - README.md - This README
 - Report.md - Report describing the Learning Algorithm used, a plot of the rewards, and ideas for future work.
-- plot_of_rewards.png - Plot showing the rewards over each episode for the agents
+- plot_scores.png - Plot showing the scores over each episode for the agents
 
